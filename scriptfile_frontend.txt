@@ -1,0 +1,13 @@
+sudo apt-get update
+
+sudo apt install nginx
+
+mkdir frontend
+
+cd frontend
+
+git clone https://github.com/BairiRohithReddy/wipro_capstone_g1.git
+
+cd wipro_capstone_g1/dist/shop
+
+cp -r . /var/www/html/
